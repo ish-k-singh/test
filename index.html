@@ -1,5 +1,115 @@
+<!doctype html>
 <html>
+	
+	<!-- Top navigation -->
+<div class="topnav">
+
+  <!-- Centered link -->
+  <div class="topnav-centered">
+    <a href="#home" class="active"><img src ="me2.PNG" style = "width: 100px; margin-top: 0px; align-items: center;"></a>
+  </div>
+
+  <!-- Left-aligned links (default) -->
+  <a href="#">About</a>
+  <a href="#">Art</a>
+
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="#">Shop</a>
+    <a href="#">Blog</a>
+  </div>
+
+</div>
+
+	
+<head>
+<meta charset="UTF-8">
+<title>Starsighted</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/wire-one:n4:default;dorsa:n4:default;flamenco:n4:default;nova-cut:n4:default;glass-antiqua:n4:default;monofett:n4:default;nosifer:n4:default;quicksand:n4:default;raleway:n1:default;syncopate:n4:default;tulpen-one:n4:default.js" type="text/javascript"></script>
+</head>
+
 <body>
-<p>Hello</p>
+	
+<div class = "two">
+<header id="header" > 
+	<h1><img src = "IMG_8769.PNG" style = "width: 900px; height: 450px; margin-top: 5%; margin-bottom: 5%;"></h1> 
+</header>
+</div>
+
+<div class = "three">
+	<h2>hey, you.</h2>
+	<p>in reality: im nearsighted.</p> 
+	<p>in an alternate universe: i'm starsighted.</p>
+	<p> be starsighted.</p>
+	<p> xoxo, ish.</p>
+</div>
+
+<div class = "four"> 
+  <h3>&nbsp;</h3>
+	<img src = "Unknown.jpeg" style = "width:400px; float:left;">
+  <h3>we give back!</h3>
+	<p>10% of all proceeds will go to </p>
+	<p><a href="http://www.bhaikanhaiyacharity.com" title="Bhai Kanhaiya Charitable Fund, Inc.">Bhai Kanhaiya Charitable Fund, Inc.</a></p>
+	<p>This charity, established in 1994, was chosen because of its well-rounded, representative-of-Sikh-values mission: To feed the hungry, educate the poor, to treat the sick and ailing and to bring the message of Almighty God to one and all. The trust provides for a girls' college, school, and hospital. It also supports a free monthly magazine named ‘Sewa Jyoti’ to help convey the message of Guru Granth Sahib to 14,000 homes in India, the USA, the UK and Canada. With its current focus on the Cancer Pandemic ravaging the state of Punjab, as of now, funds will be going towards the expansion of the hospital.</p>
+	</div>
+	
+<div class = "five">
+  <h4>&nbsp;</h4>
+	<a href="https://www.instagram.com/starsightedbyish/" class="active"><img src="instagram_PNG8.png" style = "width: 120px; float: right; margin-right: 5%"></a>
+  <h4>connect with me!</h4>
+	<p>Stay connected, updated, and close! Come join the Starsighted fam (: </p>
+	</div>
+	
+	<h5>&nbsp;</h5>
+	
+  <div class="container">
+    <h5>subscribe for updates</h5>
+    <p style= "text-align: center">be the first ones to know about new releases!</p>
+  </div>
+	
+<form action="https://www.SnapHost.com/captcha/send.aspx" method="post" id="NewsletterSubscriptionForm" onsubmit="return ValidateForm(this);" target="_top">
+<input id="skip_WhereToSend" name="skip_WhereToSend" type="hidden" value="ishmeet.singh@gmail.com" />
+<input id="skip_SnapHostID" name="skip_SnapHostID" type="hidden" value="73FMSHGJS92X" />
+<input id="skip_WhereToReturn" name="skip_WhereToReturn" type="hidden" value="http://www.YourWebsiteAddress.com/ThankYouPage.htm" />
+<input id="skip_Subject" name="skip_Subject" type="hidden" value="Newsletter Subscription Form" />
+<input id="skip_ShowUsersIp" name="skip_ShowUsersIp" type="hidden" value="1" />
+<script type="text/javascript">
+function ValidateForm(frm) {
+if (frm.Name.value == "") {alert('Name is required.');frm.Name.focus();return false;}
+if (frm.Organization.value == "") {alert('Organization is required.');frm.Organization.focus();return false;}
+if (frm.FromEmailAddress.value == "") {alert('Email address is required.');frm.FromEmailAddress.focus();return false;}
+if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) {alert('Please enter a valid email address.');frm.FromEmailAddress.focus();return false;}
+if (frm.skip_CaptchaCode.value == "") {alert('Enter security code.');frm.skip_CaptchaCode.focus();return false;}
+return true; }
+function ReloadCaptchaImage(captchaImageId) {
+var obj = document.getElementById(captchaImageId);
+var src = '' + obj.src;
+obj.src = '';
+var date = new Date();
+var pos = src.indexOf('&rad=');
+if (pos >= 0) { src = src.substr(0, pos); }
+obj.src = src + '&rad=' + date.getTime();
+return false; }
+</script>
+<table border="0" cellpadding="5" cellspacing="0" style="width:360px; margin:auto; text-align:center; font-family: andale mono;">
+<tr><td>
+Full Name: <br />
+<input id="Name" name="Name" type="text" maxlength="60" style="width:340px; border:1px solid #999999;"/>
+</td></tr><tr><td>
+Email:<br />
+<input id="FromEmailAddress" name="FromEmailAddress" type="text" maxlength="60" style="width:340px; border:1px solid #999999" />
+</td></tr>
+<tr><td style="padding-bottom:18px;">
+<input id="skip_Submit" name="skip_Submit" type="submit" value="SUBSCRIBE"/>
+</td></tr>
+</table>
+</form>
+
+	  <h4>&nbsp;</h4>
+<div class = "contact me">
+	<a href="#">Contact Me</a>
+	</div>
+	
 </body>
 </html>
